@@ -13,12 +13,12 @@ output_file = "output.gif"
 # 1 = Original FPS (No skip)
 # 2 = Keep 1 every 2 frames (50% weight reduction, half FPS)
 # 3 = Keep 1 every 3 frames
-skip_factor = 3
+skip_factor = 2
 
 # --- STRATEGY 2: RESIZING ---
 # 1.0 = Original Size
 # 0.75 = 75% of original size
-scale_factor = 0.74
+scale_factor = 0.84
 
 # --- STRATEGY 3: GIFSICLE OPTIMIZATION ---
 use_gifsicle = False      # Requires gifsicle installed/exe present
